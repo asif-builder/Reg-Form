@@ -1,18 +1,17 @@
 # Student Registration Form
 
-This is a simple and beautiful student registration form created using **HTML** and **CSS**.
+A simple and responsive registration form built using **HTML** and **CSS**.
 
-## 🔗 Live Link
+## 🌐 Live Website
 
-[Click to view the form]https://github.com/asif-builder/Reg-Form.git
+👉 [Click to view](https://asif-builder.github.io/Reg-Form/)
 
-## 📁 Files
+## 📁 Project Files
 
-- `index.html` – Main form structure
-- `style.css` – Form styling
+- `index.html` – Main form layout
+- `style.css` – All styling
+- `README.md` – Project info
 
-## 💡 Features
+---
 
-- Animated rainbow heading
-- Modern and clean layout
-- Responsive design
+Made with ❤️ by Asif
