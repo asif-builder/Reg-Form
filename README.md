@@ -4,7 +4,7 @@ This is a simple and beautiful student registration form created using **HTML** 
 
 ## 🔗 Live Link
 
-[Click to view the form](https://github.com/asif-builder/Reg-Form\)
+[Click to view the form]https://github.com/asif-builder/Reg-Form.git
 
 ## 📁 Files
 
