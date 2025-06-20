@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h2>Student <span class="rainbow">Registration</span> Form</h2>
+
+  <form action="/submit" method="post">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" placeholder="Enter a strong password" required><br>
+
+    <label>Gender:</label>
+    <div class="options">
+      <label><input type="radio" name="gender" value="male" required> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+      <label><input type="radio" name="gender" value="other"> Other</label>
+    </div><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" name="dob" id="dob" required><br>
+
+    <label for="dept">Department:</label>
+    <select name="department" id="dept" required>
+      <option value="">--Select Department--</option>
+      <option value="cs">Computer Science</option>
+      <option value="ee">Electrical Engineering</option>
+      <option value="bba">Business Administration</option>
+    </select><br>
+
+    <label>Skills:</label>
+    <div class="options">
+      <label><input type="checkbox" name="skills" value="html"> HTML</label>
+      <label><input type="checkbox" name="skills" value="css"> CSS</label>
+      <label><input type="checkbox" name="skills" value="js"> JavaScript</label>
+    </div><br>
+
+    <label for="pic">Upload Profile Picture:</label>
+    <input type="file" name="profilePic" id="pic"><br>
+
+    <label class="terms">
+      <input type="checkbox" name="agree" required> I agree to the terms and conditions
+    </label><br>
+
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
